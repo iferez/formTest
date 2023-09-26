@@ -1,0 +1,93 @@
+html{scroll-behavior:smooth}
+h1,h2,h3{font-family: "Titillium Web", sans-serif;}
+body{font-family: "Titillium Web", sans-serif;color:#25287f;}
+.row-eq-height{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex}
+.jumbotron h1{margin-bottom:.3em;line-height:1.1em;color:#fff}
+.h3,h3{font-size:1.2rem}
+.blue{color:#25287f}
+.white{color:#fff}
+.bg-blue{background:#092f57}
+.valign-text-bottom{vertical-align:text-bottom}
+.bg-gray{background:#ece9e8}
+.btn-pink, .btn-pink:focus{background-color:#ff586e;color:#fff;border:1px solid #ff586e; padding:15px 20px;border-radius:150px;font-size: 18px;
+    font-weight: 600;}
+.btn-pink:hover{background:transparent;color:#ea307a;border:1px solid #ff586e}
+
+section{padding:82px 0 30px;overflow:hidden}
+p{font-weight:400;font-size:1em;}
+
+#contactForm label{line-height:1.2rem}
+textarea:focus, input:focus{
+    outline: none;
+}
+.form-control, label, #contactForm p {border:none;border-radius:0;padding: 0.375rem 0rem;font-size:1em;color:#939292}
+#contactForm input {border-bottom:2px solid #092f57;}
+#contactForm textarea {border:1px solid #ced4da; padding:10px}
+#contactForm select {border:1px solid #ced4da;padding:5px}
+.form-control:focus {
+    border-color: transparent;
+    outline: 0;
+    box-shadow: none;
+}
+.custom-file-label::after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 3;
+    display: block;
+    height: calc(1.5em + 0.75rem);
+    padding: 0.375rem 0.75rem;
+    line-height: 1.5;
+    color: #fff;
+    content: "Buscar...";
+    background-color: #092f57;
+    border-left: inherit;
+    border-radius: 0 0.25rem 0.25rem 0;
+}
+
+footer {border-top:2px solid #092f57}
+
+.jumbotron{border-radius:0;padding-bottom:0;background:url(https://feriasdeempleosmacro.com.ar/assets/images/BannerHeader-2500x1000.png) center center no-repeat; 
+background-size:cover; background-color:#092f57}
+.jumbotron-gracias{border-radius:0;padding-bottom:0;background:url(../images/gracias-mobile.jpg) no-repeat right bottom; height:55vh;
+background-size:contain; background-color:#092f57}
+.jumbotron h1, .jumbotron-gracias h1{font-size:2.5em;font-weight:800;}
+h2{font-size:1.2em;font-weight:500}
+.bg-chica{}
+.bg-chico{background:#eeeae7 }
+.jumbotron-gracias h2 {font-weight:400;}
+.btn-link {color:#ff586e;text-decoration:none;}
+.btn-link:hover {color:#e8327a; text-decoration:none;}
+.text-blue{color:#002c56;}
+@media (max-width: 320px) {
+	.jumbotron h1, .jumbotron-gracias h1{font-size:2em;font-weight:800;}
+	.jumbotron{border-radius:0;padding-bottom:0;background:url(https://feriasdeempleosmacro.com.ar/assets/images/BannerHeader-2500x1000.png) center center no-repeat; height:90vh;background-size:contain; background-color:#092f57}
+}
+@media (max-width: 768px) {
+#form-submit{width:100%}
+.top-mobile{padding-top:570px;}
+}
+@media (min-width: 768px) {
+#form-submit{width:250px}
+}
+
+@media (min-width: 1024px) {
+body{font-size:18px;}
+p{font-weight:400;font-size:1.125em;}
+.jumbotron p{font-size:1.6em}
+.bg-chica{ }
+.bg-chico{background:#ece9e6 }
+.jumbotron-gracias{background:url(../images/gracias.jpg) no-repeat top left; height:666px;}
+}
+@media (min-width: 1200px) {
+.jumbotron{padding-bottom:0;background:url(https://feriasdeempleosmacro.com.ar/assets/images/BannerHeader-2500x1000.png) center center no-repeat; background-size:cover; height:520px; margin-bottom:0}
+.jumbotron h1, .jumbotron-gracias h1{font-size:59px;font-weight:800;letter-spacing:-1px;margin-bottom:25px}
+.jumbotron-gracias{background:url(../images/gracias.jpg) no-repeat top center; height:666px;}
+p{font-size:22px}
+h2{font-size:30px;font-weight:500}
+h3{font-size:1.6rem}
+.negative{ margin-top:-80px;z-index: -1;position: relative;}
+.btn-pink, .btn-pink:focus{font-size:22px}
+}
+@media (min-width: 1400px) {.container {width:1266px;}}
